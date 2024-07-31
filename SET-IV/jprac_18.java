@@ -33,7 +33,6 @@ class Member{
         System.out.println("salary : " + salary);
 
     }
-
 }
 class Employee extends Member{
     String designation;
@@ -53,8 +52,6 @@ class Manager{
         System.out.println("Enter the department of the manager : ");
         department=sc.nextLine();
     }
-
-
 }
 public class jprac_18 {
     public static void main(String[] args) {
@@ -65,12 +62,6 @@ public class jprac_18 {
         m.printdata();
         // e.getdata();
         // mg.getdata();
-       
-
-
-
-       
-        
     }
     
 }
